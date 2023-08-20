@@ -1,0 +1,17 @@
+{
+  "name": "@tunnel/constructs",
+	"version": "1.0.0",
+  "type": "module",
+  "exports": "./src/index.ts",
+	"scripts": {
+		"build": "ts-node ./scripts/build.ts",
+		"release": "lionp"
+	},
+  "dependencies": {
+    "constructs": "10.2.61"
+  },
+  "devDependencies": {
+    "lionconfig": "3.0.1",
+		"typescript": "5.1.6"
+  }
+}
